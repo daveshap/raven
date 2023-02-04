@@ -1,11 +1,10 @@
 import logging
 import time
 from typing import Callable
-
 import uvicorn
 from fastapi import FastAPI, Request
-
 from routers.embeddings import router
+import argparse
 
 log = logging.getLogger("werkzeug")
 log.setLevel(logging.ERROR)
@@ -27,4 +26,11 @@ app.include_router(router)
 
 
 if __name__ == "__main__":
-    uvicorn.run("main:app", host="0.0.0.0", port=8088, reload=True)
+    # create the command line argument parser
+    parser = argparse.ArgumentParser(description="Run the embedding microservice")
+    parser.add_argument("--host", default="0.0.0.0", type=str, help="host address to run on")
+    parser.add_argument("--port", default=8088, type=int, help="port number to run on")
+    
+    # parse arguments
+    args = parser.parse_args()
+    uvicorn.run("main:app", host=args.host, port=args.port, reload=True)
