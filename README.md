@@ -2,9 +2,19 @@
 
 RAVEN (Realtime Assistant Voice Enabled Network) OSS community edition.
 
+# Overview & Intro
+
 RAVEN is meant to be a digital assistant and artificial cognitive entity. The goal is to create an autonomous artificial intelligence that is reliable, trustworthy, and useful. 
 
 [![YouTube Thumbnail and Link to RAVEN Intro](http://img.youtube.com/vi/EwJ1534Gy6g/0.jpg)](http://www.youtube.com/watch?v=EwJ1534Gy6g "What is RAVEN? Overview, Introduction, and Community Update - Friday, February 3, 2023")
+
+# Latest News
+
+1. Please see the updated announcement here: https://github.com/daveshap/raven/discussions/52
+   - This covers forming a legal entity, establishing governance, and funding
+2. David just spoke with Mozilla AI (https://foundation.mozilla.org/en/internet-health/trustworthy-artificial-intelligence/) - this is very exciting!
+   - Mozilla AI is interested in the RAVEN project, future discussions will revolve around ethics, safety, transparency, trustworthiness
+   - Specifically, Mozilla AI is curious about creating autonomous AI agents, a new domain that does not get enough attention
 
 ## Primary Pages
 
